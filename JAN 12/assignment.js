@@ -1,14 +1,14 @@
-var data=0;
-a=document.getElementById("counting").innerText;
-a.innerText= data;
+var a=0;
+b=document.getElementById("counting").innerText;
+b.innerText= a;
 
 function increment() {
-    data=data+1;
-    document.getElementById("counting").innerText= data;
+    a=a+1;
+    document.getElementById("counting").innerText= a;
 }
 
 function decrement() {
-    data=data-1;
-    document.getElementById("counting").innerText= data;
+    a=a-1;
+    document.getElementById("counting").innerText= a;
 }
 
